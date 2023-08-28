@@ -1,0 +1,55 @@
+@import './variables';
+
+.toolbar {
+    height: $toolbar-height;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+    width: 100%;
+    &>div{
+        display: flex;
+        gap: 10px;
+    }
+
+
+    .toolbar-btn{
+        background: transparent;
+        border: none;
+        padding: 5px;
+        position: transparent;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+
+        &.brush{
+            background: url(../assets/images/brush.svg) center center/cover;
+        }
+        &.line{
+            background: url(../assets/images/line.svg) center center/cover;
+        }
+        &.square{
+            background: url(../assets/images/square.svg) center center/cover;
+        }
+        &.circle{
+            background: url(../assets/images/circle.svg) center center/cover;
+        }
+        &.eraser{
+            background: url(../assets/images/eraser.svg) center center/cover;
+        }
+        &.undo{
+            background: url(../assets/images/undo.svg) center center/cover;
+        }
+        &.redo{
+            background: url(../assets/images/redo.svg) center center/cover;
+        }
+        &.save{
+            background: url(../assets/images/save.svg) center center/cover;
+        }
+        &.color{
+            padding: 0;
+        }
+    }
+}
+

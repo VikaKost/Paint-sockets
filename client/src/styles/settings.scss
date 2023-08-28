@@ -1,0 +1,11 @@
+@import './variables';
+
+.settings {
+    height: $toolbar-height;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    width: 100%;
+    margin-top: 10px;
+}
